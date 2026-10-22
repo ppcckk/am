@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://serialshelf.surge.sh/sitemap.xml
+
+# Disallow AI crawlers that resell content without attribution
+User-agent: CCBot
+Disallow: /
