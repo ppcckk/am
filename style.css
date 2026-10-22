@@ -37,6 +37,13 @@ nav.crumbs{font-size:.85rem;color:var(--dim);margin-bottom:1.6rem}
  margin-left:.55rem}
 .paybox{background:var(--card);border:1px solid var(--line);border-radius:12px;
  padding:20px 22px;margin:1.6rem 0}
+.bookhead{display:flex;gap:22px;align-items:flex-start;margin-bottom:1rem}
+.bookhead .cover{width:132px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.18);flex:0 0 auto}
+.cardrow{display:flex;gap:20px;align-items:flex-start}
+.cardrow .cov{flex:0 0 auto}
+.cardrow .cov img{width:88px;border-radius:6px;box-shadow:0 4px 14px rgba(0,0,0,.16)}
+@media(max-width:520px){.bookhead{gap:14px}.bookhead .cover{width:96px}
+ .cardrow .cov img{width:66px}}
 .paybox ol{margin:.6rem 0 0;padding-left:1.3rem;font-size:.9rem;color:var(--dim)}
 @media(max-width:520px){h1{font-size:1.6rem}.wrap{padding:28px 18px 80px}
  .cta.ghost{margin:.6rem 0 0;display:block;text-align:center}}
